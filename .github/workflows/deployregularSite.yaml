@@ -51,4 +51,4 @@ jobs:
         # Allow Jekyll to build your site
         jekyll: false
       env:
-        GITHUB_TOKEN: {{ secrets.GH_TOKEN }}
+        GITHUB_TOKEN: ${{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 }}
